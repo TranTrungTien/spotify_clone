@@ -1,0 +1,68 @@
+POST http://localhost:3001/
+
+
+
+#POST  http://localhost:3001/api/user
+# Content-Type: application/json
+
+# {
+#     "username": "Tran Thi Phuong Anh",
+#     "email" : "phuonganh@gmail.com"
+# }
+
+# POST  http://localhost:3001/api/playlist/create-playlist
+# Content-Type: application/json
+
+# {
+#     "playlist_id" : "abc1234",
+#     "email" : "phuonganh@gmail.com"
+# }
+
+# POST  http://localhost:3001/api/playlist/phuonganh@gmail.com/abc1234
+# Content-Type: application/json
+
+# {
+#    "track": {
+#      "album": {
+#        "album_type": "album",
+#        "artists": [
+#          {
+#            "name": "Kularis"
+#          }
+#        ]
+#      },
+#      "artists": [
+#        {
+#          "name": "Kularis"
+#        }
+#      ],
+#      "name": "Api",
+#      "preview_url": "https://p.scdn.co/mp3-preview/c440fa9ff320fb74629f8477bff45b1a377897ab?cid=774b29d4f13844c495f206cafdad9c86",
+#      "type": "track"
+#    }
+# }
+
+# document structure
+# {
+#   "track": {
+#     "album": {
+#       "album_type": "album",
+#       "artists": [
+#         {
+#           "name": "Kularis"
+#         }
+#       ]
+#     },
+#     "artists": [
+#       {
+#         "name": "Kularis"
+#       }
+#     ],
+#     "name": "Api",
+#     "preview_url": "https://p.scdn.co/mp3-preview/c440fa9ff320fb74629f8477bff45b1a377897ab?cid=774b29d4f13844c495f206cafdad9c86",
+#     "type": "track"
+#   }
+# }
+
+# DELETE   http://localhost:3001/api/playlist/abc1234
+# Content-Type: application/json

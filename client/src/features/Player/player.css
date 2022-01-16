@@ -1,0 +1,77 @@
+input[type="range"] {
+  -webkit-appearance: none !important;
+  -moz-appearance: none;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  height: 4px;
+  position: relative;
+  background: #eded;
+  border: none;
+  outline: none;
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(0%, #1eca5b),
+    color-stop(100%, #eded)
+  );
+
+  background-image: -moz-linear-gradient(
+    left center,
+    #1eca5b 0%,
+    #1eca5b 15%,
+    #eded 15%,
+    #eded 100%
+  );
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 0;
+  height: 0;
+}
+
+.progressbar:hover input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: white;
+}
+
+input[type="range"]:focus {
+  outline: none;
+  border: none;
+}
+
+input[type="range"]::-moz-range-thumb {
+  -moz-appearance: none !important;
+  background-color: #1eca5b;
+  border: none;
+  height: 4px;
+  width: 100%;
+  border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-track {
+  border: none;
+  background: none;
+  outline: none;
+}
+
+input[type="range"]::-moz-range-progress {
+  background-color: #1eca5b;
+}
+input[type="range"]::-moz-range-track {
+  background-color: #1eca5b;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #1eca5b;
+}
+input[type="range"]::-ms-fill-upper {
+  background-color: #1eca5b;
+}
