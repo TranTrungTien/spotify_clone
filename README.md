@@ -1,4 +1,5 @@
 # spotify_clone
+I made all functions and UI by myself based on Spotify's design while learning reactjs and nodejs
 
 ![spotify](https://user-images.githubusercontent.com/71311738/149652740-d81c901a-39c9-4ee3-99a9-2e4d905669ff.jpg)
 ![spotify1](https://user-images.githubusercontent.com/71311738/149652741-68e8f408-0814-4975-9435-82cb9665f9e2.jpg)
